@@ -41,20 +41,38 @@ body {
   text-transform: uppercase;
 }
 
-.parameters {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.parameters__container {
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  margin: 20px 0 20px;
 }
 
 .parameters-title {
-  font-weight: 500;
-  font-size: 12px;
+  width: 152px;
   color: #8c8c8c;
 }
 
 .parameters-title:first-child,
 .parameters-title:last-child {
   margin: 0;
+}
+
+.parameters-title__info {
+  max-width: max-content;
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.parameters-title__info:first-child,
+.parameters-title__info:last-child {
+  margin: 0;
+}
+
+.parameters-title__info:hover {
+  background-color: #ff6b01;
+  color: #ffffff;
 }
 
 .details-about {
