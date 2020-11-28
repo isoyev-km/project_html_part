@@ -66,9 +66,21 @@ body {
   margin: 0 0 12px 0;
 }
 
-.parameters-title__info:hover {
+.vote {
+  display: inline-block;
+  text-align: center;
+  line-height: 14px;
+  width: 36px;
+  border-radius: 5px;
   background-color: #ff6b01;
   color: #ffffff;
+}
+
+.votes {
+  width: 36px;
+  height: 16px;
+  border-radius: 5px;
+  background-color: #f7f7f7;
 }
 
 .details-about {
