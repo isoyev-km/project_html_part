@@ -49,6 +49,7 @@ body {
 }
 
 .parameters-title {
+  margin: 0;
   width: 152px;
   color: #8c8c8c;
 }
