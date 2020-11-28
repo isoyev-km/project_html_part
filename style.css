@@ -34,7 +34,7 @@ body {
 }
 
 .details-info__title {
-  margin: 0;
+  margin: 0 0 20px 0;
   font-weight: 500;
   font-size: 30px;
   line-height: 35px;
@@ -45,7 +45,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   display: flex;
-  margin: 20px 0 20px;
+  margin-bottom: 20px;
 }
 
 .parameters-title {
@@ -85,6 +85,7 @@ body {
 }
 
 .details-about {
+  margin: 0 0 12px 0;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 12px;
@@ -97,7 +98,7 @@ body {
   margin: 0 0 18px 0;
 }
 
-button {
+.button-action {
   width: 136px;
   height: 44px;
   border: 1px solid #000000;
@@ -107,7 +108,7 @@ button {
   font-size: 12px;
 }
 
-button:not(:last-child) {
+.button-action:not(:last-child) {
   margin-right: 12px;
 }
 
