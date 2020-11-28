@@ -51,22 +51,19 @@ body {
 .parameters-title {
   width: 152px;
   color: #8c8c8c;
+}
+
+.parameters-title:not(:last-child) {
   margin: 0 0 12px 0;
 }
 
-.parameters-title:last-child {
-  margin: 0;
-}
-
-.parameters-title__info {
-  max-width: max-content;
-  margin: 0 0 12px 0;
+.values {
   display: flex;
   flex-direction: column;
 }
 
-.parameters-title__info:last-child {
-  margin: 0;
+.parameters-title__info:not(:last-child) {
+  margin: 0 0 12px 0;
 }
 
 .parameters-title__info:hover {
