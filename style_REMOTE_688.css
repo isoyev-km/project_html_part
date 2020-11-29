@@ -30,7 +30,7 @@ body {
 }
 
 .details-image {
-  max-width: 426px;
+  width: 426px;
   height: auto;
   margin-right: 30px;
 }
@@ -135,7 +135,7 @@ button:hover {
   }
 
   .container {
-    max-width: 618px;
+    width: 618px;
     margin: 0 auto;
   }
 
@@ -152,7 +152,6 @@ button:hover {
   }
 
   .details-image {
-    width: 294px;
     margin-right: 30px;
   }
 
@@ -167,7 +166,7 @@ button:hover {
 
 @media screen and (max-width: 320px) {
   .container {
-    max-width: 280px;
+    width: 280px;
     padding: 0 20px;
     margin: 0;
   }
