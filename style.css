@@ -29,6 +29,12 @@ body {
   justify-content: space-between;
 }
 
+.details-image {
+  max-width: 426px;
+  height: auto;
+  margin-right: 30px;
+}
+
 .details-info {
   width: 426px;
 }
@@ -116,4 +122,73 @@ button:hover {
   background: #ff6b01;
   color: #ffffff;
   border: none;
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .movie-card {
+    margin-top: 60px;
+  }
+
+  .container {
+    max-width: 618px;
+    margin: 0 auto;
+  }
+
+  .card {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .details-image img {
+    width: 294px;
+    height: auto;
+  }
+
+  .details-image {
+    margin-right: 30px;
+  }
+
+  .details-info {
+    width: 280px;
+  }
+
+  .button-action:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 280px;
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  .movie-card {
+    margin-top: 20px;
+  }
+
+  .card {
+    width: 280px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .details-image img {
+    width: 280px;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .button-action:not(:last-child) {
+    margin-right: 15px;
+  }
 }
